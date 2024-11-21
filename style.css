@@ -66,6 +66,11 @@ header{
     text-transform: capitalize;
     font-size: 1rem;
     font-weight: 600;
+    transition: all 500ms;
+}
+.nav-button:hover{
+    background-color: #E1FFA0;
+    color: #144442;
 }
 .info-section{
     display: flex;
@@ -129,13 +134,17 @@ header{
     width: 25%;
     cursor: pointer;
     border-radius: 0;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
     position: absolute;
     bottom: 0;
     right: 0;
     background-color: #134341;
     color: #fff;
+    transition: background-color 500ms;
+}
+.form-group .signup-btn:hover{
+    background-color: #2e615efd;
 }
 .card-image{
     max-width: 68rem;
