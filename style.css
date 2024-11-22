@@ -21,7 +21,6 @@ body {
     scroll-behavior: smooth;
 }
 .container{
-    /* padding: 0 20px; */
     background-color: #144442;
 }
 
@@ -37,7 +36,6 @@ header{
 }
 .nav-logo img{
     width: 149px;
-
 }
 .nav-menu{
     display: flex;
